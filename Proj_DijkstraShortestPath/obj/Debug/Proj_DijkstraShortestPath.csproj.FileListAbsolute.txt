@@ -1,0 +1,9 @@
+E:\Nitip punya hamdan\C#\Proj_DijkstraShortestPath\Proj_DijkstraShortestPath\bin\Debug\Proj_DijkstraShortestPath.exe.config
+E:\Nitip punya hamdan\C#\Proj_DijkstraShortestPath\Proj_DijkstraShortestPath\bin\Debug\Proj_DijkstraShortestPath.exe
+E:\Nitip punya hamdan\C#\Proj_DijkstraShortestPath\Proj_DijkstraShortestPath\bin\Debug\Proj_DijkstraShortestPath.pdb
+E:\Nitip punya hamdan\C#\Proj_DijkstraShortestPath\Proj_DijkstraShortestPath\obj\Debug\Proj_DijkstraShortestPath.csprojResolveAssemblyReference.cache
+E:\Nitip punya hamdan\C#\Proj_DijkstraShortestPath\Proj_DijkstraShortestPath\obj\Debug\Proj_DijkstraShortestPath.Form1.resources
+E:\Nitip punya hamdan\C#\Proj_DijkstraShortestPath\Proj_DijkstraShortestPath\obj\Debug\Proj_DijkstraShortestPath.Properties.Resources.resources
+E:\Nitip punya hamdan\C#\Proj_DijkstraShortestPath\Proj_DijkstraShortestPath\obj\Debug\Proj_DijkstraShortestPath.csproj.GenerateResource.Cache
+E:\Nitip punya hamdan\C#\Proj_DijkstraShortestPath\Proj_DijkstraShortestPath\obj\Debug\Proj_DijkstraShortestPath.exe
+E:\Nitip punya hamdan\C#\Proj_DijkstraShortestPath\Proj_DijkstraShortestPath\obj\Debug\Proj_DijkstraShortestPath.pdb
