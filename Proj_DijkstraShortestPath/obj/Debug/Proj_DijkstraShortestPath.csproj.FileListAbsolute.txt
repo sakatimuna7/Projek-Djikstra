@@ -7,3 +7,4 @@ E:\Nitip punya hamdan\C#\Proj_DijkstraShortestPath\Proj_DijkstraShortestPath\obj
 E:\Nitip punya hamdan\C#\Proj_DijkstraShortestPath\Proj_DijkstraShortestPath\obj\Debug\Proj_DijkstraShortestPath.csproj.GenerateResource.Cache
 E:\Nitip punya hamdan\C#\Proj_DijkstraShortestPath\Proj_DijkstraShortestPath\obj\Debug\Proj_DijkstraShortestPath.exe
 E:\Nitip punya hamdan\C#\Proj_DijkstraShortestPath\Proj_DijkstraShortestPath\obj\Debug\Proj_DijkstraShortestPath.pdb
+E:\Nitip punya hamdan\C#\Proj_DijkstraShortestPath\Proj_DijkstraShortestPath\obj\Debug\Proj_DijkstraShortestPath.Abaotme.resources

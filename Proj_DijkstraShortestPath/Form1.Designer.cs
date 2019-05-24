@@ -29,6 +29,13 @@
         private void InitializeComponent()
         {
             this.gb_map = new System.Windows.Forms.GroupBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.kota_E = new System.Windows.Forms.Button();
             this.kota_D = new System.Windows.Forms.Button();
             this.kota_C = new System.Windows.Forms.Button();
@@ -43,20 +50,17 @@
             this.lineShape2 = new Microsoft.VisualBasic.PowerPacks.LineShape();
             this.lineShape1 = new Microsoft.VisualBasic.PowerPacks.LineShape();
             this.gb_status = new System.Windows.Forms.GroupBox();
+            this.tempuh = new System.Windows.Forms.Label();
             this.kotaTujuan = new System.Windows.Forms.Label();
             this.jarakTempuh = new System.Windows.Forms.Label();
             this.kotaAsal = new System.Windows.Forms.Label();
             this.FcR = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
             this.btn_cari = new System.Windows.Forms.Button();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.abaoutMeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.gb_map.SuspendLayout();
             this.gb_status.SuspendLayout();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // gb_map
@@ -74,12 +78,75 @@
             this.gb_map.Controls.Add(this.kota_B);
             this.gb_map.Controls.Add(this.kota_A);
             this.gb_map.Controls.Add(this.shapeContainer1);
-            this.gb_map.Location = new System.Drawing.Point(29, 22);
+            this.gb_map.Location = new System.Drawing.Point(29, 40);
             this.gb_map.Name = "gb_map";
-            this.gb_map.Size = new System.Drawing.Size(586, 237);
+            this.gb_map.Size = new System.Drawing.Size(586, 217);
             this.gb_map.TabIndex = 0;
             this.gb_map.TabStop = false;
             this.gb_map.Text = "Area Map";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(234, 122);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(13, 13);
+            this.label7.TabIndex = 16;
+            this.label7.Text = "5";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(97, 122);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(13, 13);
+            this.label6.TabIndex = 15;
+            this.label6.Text = "4";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(297, 110);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(13, 13);
+            this.label5.TabIndex = 14;
+            this.label5.Text = "4";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(98, 76);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(13, 13);
+            this.label4.TabIndex = 13;
+            this.label4.Text = "3";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(242, 76);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(13, 13);
+            this.label3.TabIndex = 12;
+            this.label3.Text = "2";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(166, 160);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(13, 13);
+            this.label2.TabIndex = 11;
+            this.label2.Text = "8";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(36, 100);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(13, 13);
+            this.label1.TabIndex = 10;
+            this.label1.Text = "5";
             // 
             // kota_E
             // 
@@ -149,7 +216,7 @@
             this.lineShape3,
             this.lineShape2,
             this.lineShape1});
-            this.shapeContainer1.Size = new System.Drawing.Size(580, 218);
+            this.shapeContainer1.Size = new System.Drawing.Size(580, 198);
             this.shapeContainer1.TabIndex = 9;
             this.shapeContainer1.TabStop = false;
             // 
@@ -211,15 +278,25 @@
             // 
             // gb_status
             // 
+            this.gb_status.Controls.Add(this.tempuh);
             this.gb_status.Controls.Add(this.kotaTujuan);
             this.gb_status.Controls.Add(this.jarakTempuh);
             this.gb_status.Controls.Add(this.kotaAsal);
-            this.gb_status.Location = new System.Drawing.Point(32, 269);
+            this.gb_status.Location = new System.Drawing.Point(32, 263);
             this.gb_status.Name = "gb_status";
-            this.gb_status.Size = new System.Drawing.Size(242, 90);
+            this.gb_status.Size = new System.Drawing.Size(317, 109);
             this.gb_status.TabIndex = 1;
             this.gb_status.TabStop = false;
             this.gb_status.Text = "Status";
+            // 
+            // tempuh
+            // 
+            this.tempuh.AutoSize = true;
+            this.tempuh.Location = new System.Drawing.Point(6, 86);
+            this.tempuh.Name = "tempuh";
+            this.tempuh.Size = new System.Drawing.Size(118, 13);
+            this.tempuh.TabIndex = 4;
+            this.tempuh.Text = "Kota Yang Di Tempuh :";
             // 
             // kotaTujuan
             // 
@@ -250,7 +327,7 @@
             // 
             // FcR
             // 
-            this.FcR.Location = new System.Drawing.Point(555, 331);
+            this.FcR.Location = new System.Drawing.Point(555, 349);
             this.FcR.Name = "FcR";
             this.FcR.Size = new System.Drawing.Size(75, 23);
             this.FcR.TabIndex = 2;
@@ -258,72 +335,9 @@
             this.FcR.UseVisualStyleBackColor = true;
             this.FcR.Click += new System.EventHandler(this.FcR_Click);
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(36, 100);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(13, 13);
-            this.label1.TabIndex = 10;
-            this.label1.Text = "5";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(166, 160);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(13, 13);
-            this.label2.TabIndex = 11;
-            this.label2.Text = "8";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(242, 76);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(13, 13);
-            this.label3.TabIndex = 12;
-            this.label3.Text = "2";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(98, 76);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(13, 13);
-            this.label4.TabIndex = 13;
-            this.label4.Text = "3";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(297, 110);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(13, 13);
-            this.label5.TabIndex = 14;
-            this.label5.Text = "7";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(97, 122);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(13, 13);
-            this.label6.TabIndex = 15;
-            this.label6.Text = "4";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(234, 122);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(13, 13);
-            this.label7.TabIndex = 16;
-            this.label7.Text = "5";
-            // 
             // btn_cari
             // 
-            this.btn_cari.Location = new System.Drawing.Point(555, 303);
+            this.btn_cari.Location = new System.Drawing.Point(555, 321);
             this.btn_cari.Name = "btn_cari";
             this.btn_cari.Size = new System.Drawing.Size(75, 23);
             this.btn_cari.TabIndex = 3;
@@ -331,23 +345,49 @@
             this.btn_cari.UseVisualStyleBackColor = true;
             this.btn_cari.Click += new System.EventHandler(this.btn_cari_Click);
             // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.menuStrip1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.menuStrip1.Dock = System.Windows.Forms.DockStyle.None;
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.abaoutMeToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(178, 24);
+            this.menuStrip1.TabIndex = 4;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // abaoutMeToolStripMenuItem
+            // 
+            this.abaoutMeToolStripMenuItem.Name = "abaoutMeToolStripMenuItem";
+            this.abaoutMeToolStripMenuItem.Size = new System.Drawing.Size(78, 20);
+            this.abaoutMeToolStripMenuItem.Text = "Abaout me";
+            this.abaoutMeToolStripMenuItem.Click += new System.EventHandler(this.abaoutMeToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(642, 362);
+            this.ClientSize = new System.Drawing.Size(642, 388);
             this.Controls.Add(this.btn_cari);
             this.Controls.Add(this.FcR);
             this.Controls.Add(this.gb_status);
             this.Controls.Add(this.gb_map);
+            this.Controls.Add(this.menuStrip1);
+            this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Dijikstra Short Patch";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.gb_map.ResumeLayout(false);
             this.gb_map.PerformLayout();
             this.gb_status.ResumeLayout(false);
             this.gb_status.PerformLayout();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -380,6 +420,9 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btn_cari;
+        private System.Windows.Forms.Label tempuh;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem abaoutMeToolStripMenuItem;
     }
 }
 
